@@ -1,94 +1,139 @@
 body {
-    background-color: #1B1924;
-    text-align: center;
-    margin-top: 30px;
-    user-select: none;
+  background-color: #1b1924;
+  text-align: center;
+  margin-top: 30px;
+  user-select: none;
 }
 
 img {
-    width: 90px;
-    height: 90px;
+  width: 90px;
+  height: 90px;
 }
 
 h1 {
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 700;
-    font-size: 1.4rem;
-    line-height: 1.4rem;
-    color: #FFFFFF;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  color: #ffffff;
 }
 
 textarea {
-    background-color: #444059;
-    border: none;
-    width: 300px;
-    height: auto;
-    min-height: 100px;
-    max-height: none;
-    border-radius: 8px;
-    color: #8F8F8F;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-size: 0.9rem;
-    line-height: 18.15px;
-    padding: 9px;
-    margin-bottom: 15px;
-    white-space: normal;
-    text-align: left;
-    resize: none;
-    overflow: auto;
+  background-color: #444059;
+  border: none;
+  width: 300px;
+  height: auto;
+  min-height: 100px;
+  max-height: none;
+  border-radius: 8px;
+  color: #8f8f8f;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 18.15px;
+  padding: 9px;
+  margin-bottom: 15px;
+  white-space: normal;
+  text-align: left;
+  resize: none;
+  overflow: auto;
 }
 
 textarea:focus {
-    outline: none;
+  outline: none;
 }
 
 textarea:focus::placeholder {
-    color: transparent;
+  color: transparent;
+}
+
+input {
+  background-color: #444059;
+  border: none;
+  width: 150px;
+  height: auto;
+  min-height: 20px;
+  max-height: none;
+  border-radius: 8px;
+  color: #8f8f8f;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 18.15px;
+  padding: 9px;
+  margin-bottom: 15px;
+  white-space: normal;
+  text-align: left;
+  resize: none;
+  overflow: auto;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:focus::placeholder {
+  color: transparent;
 }
 
 button {
-    background-color: #28A9F1;
-    width: 317px;
-    height: 61px;
-    border: none;
-    border-radius: 8px;
-    color: #04131C;
-    font-family: "Josefin Sans";
-    font-weight: 700;
-    font-size: 1.3rem;
-    line-height: 1.3rem;
+  background-color: #28a9f1;
+  width: 317px;
+  height: 61px;
+  border: none;
+  border-radius: 8px;
+  color: #04131c;
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+}
+
+button:hover {
+  background-color: #1c7eb6;
+}
+
+button:active {
+  background-color: #28a9f1;
 }
 
 h2 {
-    font-family: "Josefin Sans";
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.2rem;
-    color: white;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: white;
 }
 
 li {
-    color: #1B1924;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-size: 0.8rem;
-    line-height: 14.52px;
-    background-color: white;
-    min-height: 40px;
-    margin: 0px auto;
-    list-style-type: none;
-    padding: 5px 10px;
-    display: inline-block;
-    width: 317px;
-    word-wrap: break-word;
-    text-align: left;
+  color: #1b1924;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 14.52px;
+  background-color: white;
+  min-height: 40px;
+  margin: 0px auto;
+  list-style-type: none;
+  padding: 5px 10px;
+  display: inline-block;
+  width: 317px;
+  word-wrap: break-word;
+  text-align: left;
 }
 
 ul {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    list-style-type: none;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style-type: none;
+  padding: 0;
+}
+
+#warn-el p {
+  color: white;
+  font-size: 1em;
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
 }
